@@ -1,0 +1,10 @@
+si SWD
+speed 4000
+device STM32F411CE
+connect
+r
+halt
+loadfile build/flash.elf
+r
+g
+exit
