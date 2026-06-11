@@ -1,0 +1,31 @@
+# Build output (both projects build into their own build/ folder)
+build/
+
+# Object files and firmware images, in case any end up outside build/
+*.o
+*.obj
+*.a
+*.elf
+*.bin
+*.hex
+*.map
+*.d
+
+# CMake junk from an accidental in-source configure (cmake . without -B)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+build.ninja
+.ninja_deps
+.ninja_log
+
+# Generated for editor IntelliSense (CMake export or bear/compiledb)
+compile_commands.json
+
+# Editor and tools
+.vscode/
+*.log
+
+# OS junk
+Thumbs.db
+.DS_Store
